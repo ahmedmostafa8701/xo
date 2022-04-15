@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="60dp"
+		android:layout_y="200dp"
+		android:id="@+id/btn0"
+		android:text=""/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="150dp"
+		android:layout_y="200dp"
+		android:id="@+id/btn1"
+		android:text=""/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="240dp"
+		android:layout_y="200dp"
+		android:id="@+id/btn2"
+		android:text=""/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="60dp"
+		android:layout_y="250dp"
+		android:id="@+id/btn3"
+		android:text=""/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="150dp"
+		android:layout_y="250dp"
+		android:id="@+id/btn4"
+		android:text=""/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="240dp"
+		android:layout_y="250dp"
+		android:id="@+id/btn5"
+		android:text=""/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="60dp"
+		android:layout_y="300dp"
+		android:id="@+id/btn6"
+		android:text=""/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="150dp"
+		android:layout_y="300dp"
+		android:id="@+id/btn7"
+		android:text=""/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="240dp"
+		android:layout_y="300dp"
+		android:id="@+id/btn8"
+		android:text=""/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_y="375dp"
+		android:layout_x="150dp"
+		android:id="@+id/winner"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="retry"
+		android:layout_x="150dp"
+		android:layout_y="400dp"
+		android:id="@+id/retry"/>
+
+</AbsoluteLayout>
+
