@@ -1,96 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout
+<LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:gravity="center">
-
-	<Button
-		android:layout_width="wrap_content"
+	android:gravity="center"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_x="60dp"
-		android:layout_y="200dp"
-		android:id="@+id/btn0"
-		android:text=""/>
+		android:gravity="center"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/btn0"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="play"/>
 
-	<Button
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_x="150dp"
-		android:layout_y="200dp"
-		android:id="@+id/btn1"
-		android:text=""/>
+		<Button
+			android:id="@+id/btn1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="play" />
 
-	<Button
-		android:layout_width="wrap_content"
+		<Button
+			android:id="@+id/btn2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="play" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_x="240dp"
-		android:layout_y="200dp"
-		android:id="@+id/btn2"
-		android:text=""/>
+		android:gravity="center"
+		android:orientation="horizontal">
 
-	<Button
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_x="60dp"
-		android:layout_y="250dp"
-		android:id="@+id/btn3"
-		android:text=""/>
+		<Button
+			android:id="@+id/btn3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="play" />
 
-	<Button
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_x="150dp"
-		android:layout_y="250dp"
-		android:id="@+id/btn4"
-		android:text=""/>
+		<Button
+			android:id="@+id/btn4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="play" />
 
-	<Button
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_x="240dp"
-		android:layout_y="250dp"
-		android:id="@+id/btn5"
-		android:text=""/>
+		<Button
+			android:id="@+id/btn5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="play" />
 
-	<Button
-		android:layout_width="wrap_content"
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_x="60dp"
-		android:layout_y="300dp"
-		android:id="@+id/btn6"
-		android:text=""/>
+		android:gravity="center"
+		android:orientation="horizontal">
 
-	<Button
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_x="150dp"
-		android:layout_y="300dp"
-		android:id="@+id/btn7"
-		android:text=""/>
+		<Button
+			android:id="@+id/btn6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="play" />
 
-	<Button
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_x="240dp"
-		android:layout_y="300dp"
-		android:id="@+id/btn8"
-		android:text=""/>
+		<Button
+			android:id="@+id/btn7"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="play" />
+
+		<Button
+			android:id="@+id/btn8"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="play" />
+	</LinearLayout>
 
 	<TextView
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:layout_y="375dp"
-		android:layout_x="150dp"
+		android:layout_margin="15dp"
 		android:id="@+id/winner"/>
 
 	<Button
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="retry"
-		android:layout_x="150dp"
-		android:layout_y="400dp"
+		android:onClick="retry"
 		android:id="@+id/retry"/>
 
-</AbsoluteLayout>
+</LinearLayout>
 
