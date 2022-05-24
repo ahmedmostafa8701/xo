@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">xo</string>
+    <string name="retry">retry</string>
 </resources>

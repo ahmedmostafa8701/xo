@@ -13,20 +13,17 @@
 		<Button
 			android:id="@+id/btn0"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:onClick="play"/>
+			android:layout_height="wrap_content" />
 
 		<Button
 			android:id="@+id/btn1"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:onClick="play" />
+			android:layout_height="wrap_content" />
 
 		<Button
 			android:id="@+id/btn2"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:onClick="play" />
+			android:layout_height="wrap_content" />
 	</LinearLayout>
 	<LinearLayout
 		android:layout_width="match_parent"
@@ -37,20 +34,17 @@
 		<Button
 			android:id="@+id/btn3"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:onClick="play" />
+			android:layout_height="wrap_content" />
 
 		<Button
 			android:id="@+id/btn4"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:onClick="play" />
+			android:layout_height="wrap_content" />
 
 		<Button
 			android:id="@+id/btn5"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:onClick="play" />
+			android:layout_height="wrap_content" />
 
 	</LinearLayout>
 	<LinearLayout
@@ -62,20 +56,18 @@
 		<Button
 			android:id="@+id/btn6"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:onClick="play" />
+			android:layout_height="wrap_content" />
 
 		<Button
 			android:id="@+id/btn7"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:onClick="play" />
+			 />
 
 		<Button
 			android:id="@+id/btn8"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:onClick="play" />
+			android:layout_height="wrap_content" />
 	</LinearLayout>
 
 	<TextView
@@ -87,7 +79,7 @@
 	<Button
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="retry"
+		android:text="@string/retry"
 		android:onClick="retry"
 		android:id="@+id/retry"/>
 

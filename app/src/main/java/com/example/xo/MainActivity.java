@@ -7,7 +7,7 @@ import android.widget.*;
 
 public class MainActivity extends Activity
 {
-	Button cells[][];
+	Button [][]cells;
 	TextView result;
 	Board board;
     @Override
@@ -16,25 +16,18 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 		result = (TextView)findViewById(R.id.winner);
+		// each cell represents button in the board
 		cells = new Button[][]{
 				{findViewById(R.id.btn0), findViewById(R.id.btn1), findViewById(R.id.btn2)},
 				{findViewById(R.id.btn3), findViewById(R.id.btn4), findViewById(R.id.btn5)},
 				{findViewById(R.id.btn6), findViewById(R.id.btn7), findViewById(R.id.btn8)}
 		};
-		board = new Board("X");
+		// create new board for playing
+		board = new Board("X", cells, result);
     }
-    public void play(View v){
-        for (int i = 0; i < cells.length;i++) {
-            for (int j = 0; j < cells[i].length; j++) {
-                if(cells[i][j] == v){
-                    board.play(cells, i, j, result);
-                }
-            }
-        }
-    }
+    // The listenter of the retry button
 	public void retry(View view){
-    	board.retry(cells);
-		result.setText("");
+        board = new Board("X", cells, result);
 	}
 }
 
